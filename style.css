@@ -1,0 +1,165 @@
+@font-face{
+    font-family: "Karla";
+    src:url("Font/Karla-VariableFont_wght.ttf");
+}
+
+*{
+    font-family:"Karla";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    background-color: hsl(204, 43%, 93%);
+}
+
+
+body{
+    display: grid;
+    place-content: center;   
+    padding: 0.5em;
+    background-color: hsl(204, 43%, 93%) !important;
+}
+
+.col{
+}
+
+.col_top{
+    max-width: 800px !important;
+}
+
+.container{
+    border-radius: 10px;
+    margin-left: 10% !important; 
+    margin-right: 10% !important; 
+    background-color: white;
+    width: auto !important;
+ }
+
+.col_top{
+}
+
+.col_mid{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.col_bottom{
+    background-color: #2AB2AFCC;
+ }
+
+/* BORDER-RADIUS MEDIA QUERIES */
+@media screen and (min-width: 576px){
+    .col_bottom{
+        border-radius: 0px 0px 8px 0px;
+    }
+
+    .col_mid{
+        border-radius: 0px 0px 0px 8px;
+    }
+    
+}
+
+@media screen and (min-width: 576px){
+    .col_mid{
+        border-radius: 0px 0px 0px 10px;
+    }
+    .col_bottom{
+        border-radius: 0px 0px 10px 0px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 576px){
+     .col_mid{
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .col_bottom{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+/* CHILD ELEMENTS STYLING */
+.join_community{
+    color: hsl(179, 62%, 43%);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.guarantee{
+    color: hsl(71, 73%, 54%);
+    font-weight: bolder;
+}
+
+.gain_access{
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 2rem;
+}
+
+.subscription{
+    color: hsl(204, 43%, 93%);
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.price_tag{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    color: hsl(204, 43%, 93%);
+    font-size: 2rem;
+}
+
+.per_month{
+    color:  hsla(0, 0%, 100%, 0.45);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.full_access{
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 1rem;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    height: 3rem;
+    border-radius: 4px;
+    margin-bottom: 10%;
+    font-size: 1.1rem;
+}
+
+.why_us{
+    color: hsl(204, 43%, 93%);
+    margin-top: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+li{
+    list-style: none;
+    padding: 0px;
+}
+
+ul{
+    color: hsla(0, 0%, 100%, 0.81);
+    padding-left: 1rem !important;
+    padding-bottom: 1rem;
+}
